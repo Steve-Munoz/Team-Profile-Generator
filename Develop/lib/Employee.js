@@ -19,11 +19,11 @@ class Employee {
   }
 
   getRole() {
-    const emp = "Employee";
-    return emp;
+    const e = "Employee";
+    return e;
   }
 }
 
-const emp = new Employee("Steve Munoz", 3, "stevemunoz18@gmail.com");
+//const emp = new Employee("Steve Munoz", 3, "stevemunoz18@gmail.com");
 
 module.exports = Employee;
