@@ -1,6 +1,6 @@
 # Welcome to Team-Profile-Generator 👋
 
-[![License: MIT   ](https://img.shields.io/badge/License-MIT -yellow.svg)](MIT License)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 > This project is a application that prompts users for information about team memebers and builds a html file for all team memebers with their information
 
