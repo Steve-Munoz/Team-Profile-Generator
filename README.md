@@ -30,7 +30,7 @@ node app.js
 
 👤 **Steve Munoz**
 
-- <img src = "images/GitHub-pic.jpg" width = "150">
+- <img src = "Assets/images/GitHub-pic.jpg" width = "150">
 
 * Website: https://steve-munoz.github.io/
 * Github: [@Steve-Munoz ](https://github.com/Steve-Munoz)
