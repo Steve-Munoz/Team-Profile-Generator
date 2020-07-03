@@ -1,13 +1,18 @@
 const Employee = require("../lib/Employee");
 
 test("Can instantiate Employee instance", () => {
+  // setup/invoke
   const e = new Employee();
-  expect(typeof(e)).toBe("object");
+  //assert
+  expect(typeof e).toBe("object");
 });
 
 test("Can set name via constructor arguments", () => {
+  // setup
   const name = "Alice";
+  //invoke
   const e = new Employee(name);
+  //assert
   expect(e.name).toBe(name);
 });
 
@@ -41,7 +46,7 @@ test("Can get email via getEmail()", () => {
   expect(e.getEmail()).toBe(testValue);
 });
 
-test("getRole() should return \"Employee\"", () => {
+test('getRole() should return "Employee"', () => {
   const testValue = "Employee";
   const e = new Employee("Alice", 1, "test@test.com");
   expect(e.getRole()).toBe(testValue);
